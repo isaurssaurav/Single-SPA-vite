@@ -1,0 +1,23 @@
+{
+  "name": "@spa/vue-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build",
+    "dev:standalone": "vite --mode standalone",
+    "preview": "vite preview",
+    "lint": "prettier . --check",
+    "lint:fix": "prettier . --write"
+  },
+  "dependencies": {
+    "single-spa-css": "^2.0.0",
+    "single-spa-vue": "^3.0.0",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11"
+  }
+}

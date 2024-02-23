@@ -1,0 +1,19 @@
+{
+  "name": "@spa/root",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier . --check",
+    "lint:fix": "prettier . --write"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "single-spa": "^6.0.0"
+  }
+}

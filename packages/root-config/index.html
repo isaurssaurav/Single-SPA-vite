@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single SPA Root</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <single-spa-router>
+      <main>
+        <route default>
+          <application name="@single-spa/app1"></application>
+
+          <!-- Register the next microfrontend here -->
+          <!-- <application name="@single-spa/app2"></application> -->
+        </route>
+      </main>
+    </single-spa-router>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
