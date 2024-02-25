@@ -1,5 +1,9 @@
 # Single SPA + Vite
+[Link](https://github.com/isaurssaurav/single-spa-ssr) to SSR example.
 
+![alt text](image.png)
+
+As of now setup is little messy(TODO).
 ## Project Setup
 
 ```sh
@@ -7,9 +11,12 @@ npm install
 npm run build
 ```
 
-## Serve the project
+## Serve the Vue project
 
 ```sh
+
+cd vue-app 
+
 npx http-server ./vue-app/dist --cors
 ```
 
